@@ -14,10 +14,7 @@ This project implements a **Support Vector Machine (SVM)** from scratch (without
 3️⃣ **Model**: Initializes weights and bias, computes hinge loss and gradients.  
 4️⃣ **Training**: Uses SGD to optimize weights and bias.  
 5️⃣ **Visualization**: Plots the data points.
-6️⃣ **Loss**: Combines hinge loss and L2 regularization:
-$$
-\mathcal{L}(w, b) = \frac{1}{N} \sum_{i=1}^{N} \max(0, 1 - y_i (w \cdot x_i + b)) + \lambda \|w\|^2
-$$
+6️⃣ **Loss**: Combines hinge loss and L2 regularization.
 
 ## 📊 Results
 - **Separates** Setosa and Virginica using a linear decision boundary.
